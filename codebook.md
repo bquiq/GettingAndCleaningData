@@ -9,7 +9,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Code book (list of variables)
 
-_`Note: Except nominal variables (subjectID and activity), all features are normalized and bounded within the range [-1,1].`_
+**_`Note: Except nominal variables (subjectID and activity), all features are normalized and bounded within the range [-1,1].`_**
 
 Variable name | Unit | Description
 --- | --- | ---
