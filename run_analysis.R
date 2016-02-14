@@ -88,7 +88,7 @@ tidydata <- alldata %>% group_by (activity,subjectID) %>% summarise_each(funs(me
 # 6. Write tidy data tables, generate metadata for code book and 
 #set working directory to old value
 #write.csv(alldata, "alldata.csv")
-write.table(tidydata, "tidydata.txt", row.names=F)
+write.table(tidydata, "..\\tidydata.txt", row.names=F)
 
 var <- names(tidydata)
 description <- character(length(var))
@@ -105,7 +105,7 @@ for (i in 1:length(var)){
 }
 
 codebook <- data.frame(var, description)
-write.table(codebook,"..\\cb.txt",sep=" : ",quote=F, row.names = F)
+write.table(codebook,"..\\cb.txt",sep=" | ",quote=F, row.names = F)
 
 setwd(oldwd)
 #------------------------------------------------------------------------------
