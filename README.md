@@ -31,11 +31,14 @@ Note: the script was tested with the following version of R: "R version 3.2.3 (2
 2. Download the script "run_analysis.R" and put it in your working directory
 
 3. Run the script with the following command:
-´source("run_analysis.R")´
+
+`source("run_analysis.R")`
 
 ## How to load the tidy dataset?
 1. Run the script (see above)
 
 2. Load the file in a dataframe called "myData" and view it:
-´myData<- read.table("projectW4\\UCI HAR Dataset\\tidydata.txt",header = TRUE)´
-´View(myData)´
+
+`myData<- read.table("projectW4\\UCI HAR Dataset\\tidydata.txt",header = TRUE)`
+
+'View(myData)'
