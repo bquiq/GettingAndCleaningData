@@ -25,7 +25,7 @@ The script performs the following operations:
 ## How to run the script?
 Note: the script was tested with the following version of R: "R version 3.2.3 (2015-12-10)"
 
-1. Install the "dplyr" package and load it with the following commands:
+1. Install the "dplyr" package with the following command:
 'install.packages("dplyr")'
 
 2. Download the script "run_analysis.R" and put it in your working directory

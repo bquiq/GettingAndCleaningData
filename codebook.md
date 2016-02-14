@@ -12,8 +12,9 @@ All measurement were normalized and bounded within the range [-1,1]. The unit us
 The tidy dataset contains data from the raw dataset aggregated by subjectID and activity. The mean was used to summarize each measurement.
 
 ## Features description
-
-**activity** : Type of activiy. Nominal. Values: WALKING; WALKING_UPSTAIRS; WALKING_DOWNSTAIRS; SITTING; STANDING; LAYING
+activity | Description 
+--- | ---
+|**activity** | Type of activiy. Nominal. Values: WALKING; WALKING_UPSTAIRS; WALKING_DOWNSTAIRS; SITTING; STANDING; LAYING
 **subjectID** : Subject identifier. Nominal. Values: [1-30]
 **Time_BodyAcceleration_Mean_X** : Measurement
 **Time_BodyAcceleration_Mean_Y** : Measurement
