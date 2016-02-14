@@ -41,4 +41,4 @@ Note: the script was tested with the following version of R: "R version 3.2.3 (2
 
 `myData<- read.table("projectW4\\UCI HAR Dataset\\tidydata.txt",header = TRUE)`
 
-'View(myData)'
+`View(myData)`
